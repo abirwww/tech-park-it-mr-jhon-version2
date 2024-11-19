@@ -18,5 +18,13 @@
     "postcss-scss": "^4.0.9",
     "sass": "^1.68.0",
     "scss": "^0.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abirwww/tech-park-it-mr-jhon-version2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abirwww/tech-park-it-mr-jhon-version2/issues"
+  },
+  "homepage": "https://github.com/abirwww/tech-park-it-mr-jhon-version2#readme"
 }

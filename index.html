@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;700&display=swap" />
     <link rel="stylesheet" href="./assets/styles/app.css">
-
-
     <title>Mr Jhon</title>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -26,10 +23,10 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/style.css">
-
-    
 </head>
-
+<!-- -------------------
+body section start 
+---------------------------->
 <body>
     <header>
         <div class="container">
@@ -55,72 +52,21 @@
                         </ul>
                     </nav>
                     <div class="extra_links">
-                        <!-- <div class="search">
-                            <a href="#" onclick="event.preventDefault();"><span class="material-symbols-outlined fill">
-                                    search
-                                </span></a>
-                        </div> -->
                         <div class="nav_control">
                             <a href="#" onclick="event.preventDefault(); nav_list.classList.add('active');">
                                 <span class="material-symbols-outlined fill">
                                     menu
                                 </span>
-
-
                             </a>
                         </div>
                     </div>
-
-
                 </div>
-
-
             </div>
         </div>
     </header>
-
-
-    
-
-
-
-
-
-
-
-    <!-- <header>
-        <div class="logo_wrapper">
-            <img src="./assets/images/tech_park_it_logo/logo_small.png" alt=" about_logo">
-            <div class="hamburger_button" id="hamburger_menu" onclick="toggleMenu()">
-                <li> <i class="fa-solid fa-bars"></i></li>
-            </div>
-        </div>
-
-        <div class="menu-icon">
-            <div class="bar"></div>
-        </div>
-
-        <nav>
-            <ul class="navbar_list" id="nav_menu">
-                <li><a class="navbar_item" href="#">Home</a></li>
-                <li><a class="navbar_item" href="#">About</a></li>
-                <li><a class="navbar_item" href="#">Portfolio</a></li>
-                <li><a class="navbar_item" href="#">Service</a></li>
-                <li><a class="navbar_item" href="#">Contuct</a></li>
-
-            </ul>
-
-
-        </nav>
-
-
-
-    </header> -->
-
-
-
-
-    
+<!-- -------------------
+banner section start 
+---------------------------->
     <section class="banner" data-aos="zoom-in">
         <div class="container">
             <div class="banner_content">
@@ -132,6 +78,9 @@
             </div>
         </div>
     </section>
+<!-- -------------------
+service section start 
+---------------------------->
     <section class="service">
         <div class="container">
             <div class="heading_wrapper">
@@ -166,6 +115,9 @@
             </div>
         </div>
     </section>
+<!-- -------------------
+about section start 
+---------------------------->
     <section class="about">
         <div class="container">
             <div class="about_content">
@@ -187,6 +139,9 @@
             </div>
         </div>
     </section>
+<!-- -------------------
+Portfolio section start 
+---------------------------->
     <section class="Portfolio">
         <div class="container">
             <div class="heading_wrapper">
@@ -213,6 +168,9 @@
             </div>
         </div>
     </section>
+<!-- -------------------
+contact section start 
+---------------------------->
     <section class="contact">
         <div class="container">
             <div class="heading_wrapper">
@@ -235,7 +193,6 @@
                         <h2 class="heading_title">Contact Info</h2>
                         <p class="heading_description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-
                     <ul>
                         <li>
                             <i class="fa-solid fa-location-dot"></i>
@@ -251,10 +208,12 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </section>
+<!-- -------------------
+footer_content section start 
+---------------------------->
     <footer>
         <div class="footer_content">
             <p>Copyright &copy; 2024 tech_park_it</p>
@@ -298,32 +257,23 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"></script>
+
     <script>
         AOS.init();
     </script>
 
     <script>
+        function toggleMenu() {
+            let navMenu = document.getElementById("nav_menu");
+            // navMenu.style.display = navMenu.style.display === "block" ? "none" : "block";
 
-
-function toggleMenu() {
-    let navMenu = document.getElementById("nav_menu");
-    // navMenu.style.display = navMenu.style.display === "block" ? "none" : "block";
-
-    if(navMenu.style.display === "none"){
-        navMenu.style.display = "block"
-    }else{
-        navMenu.style.display = "none"
-    }
-}
-
+            if (navMenu.style.display === "none") {
+                navMenu.style.display = "block"
+            } else {
+                navMenu.style.display = "none"
+            }
+        }
     </script>
-
+    
 </body>
-
-
 </html>
-
-
-
-
-
