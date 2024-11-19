@@ -1,7 +1,4 @@
 #banner{
-    @include sm(){
-
-    }
     .container{
         // padding-top: 50px;
         // padding-right: 100px;
@@ -96,7 +93,6 @@
                             letter-spacing: 0px;
                             max-width: 211px;
                         }
-
                     }
                     a{
                         padding: 14px 24px;
@@ -179,11 +175,8 @@
                 }
             }
         } 
-
     }
     
-    
-
     .banner_content{
         .banner_image{
             position: relative;
